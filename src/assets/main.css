@@ -1,0 +1,40 @@
+:root{
+  --primaryColor: #6d28d9;
+  --secondaryColor:#ede9fe;
+  --mainWhite:#fff;
+  --mainBlack:#222;
+  --mainGray:#7c7c7c;
+  --mainRed:#db2777;
+  --bodyColor:#f6f6f6;
+}
+
+@font-face {
+  font-family: "yekan";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/src/assets/iranyekanwebregular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "yekan";
+  font-style: normal;
+  font-weight: bold;
+  src: url(/src/assets/iranyekanwebbold.woff) format("woff");
+}
+
+*{
+  font-family: "yekan";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+#app{
+  color: var(--mainBlack);
+  background-color: var(--bodyColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
